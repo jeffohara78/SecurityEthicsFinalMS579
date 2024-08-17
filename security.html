@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Measures in AI</title>
+    <!-- Include Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif; /* Apply the new font */
+            background-image: url('gradientbg.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-blend-mode: overlay;
+            color: white;
+        }
+        header, main, footer {
+            padding: 20px;
+            background-color: transparent;
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 3em;
+            margin-top: 20px;
+        }
+        h2 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        nav ul {
+            text-align: center;
+        }
+        nav ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 40px;
+            font-size: 1.4em; /* Increase font size */
+            color: black; /* Change to light gray for better legibility */
+            line-height: 1.8em; /* Improve line spacing for readability */
+        }
+        ul li {
+            margin-bottom: 15px; /* Add more space between list items */
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 50%; /* Set a limit on the width to avoid taking up the entire page */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Security Measures in AI</h1>
+        <nav>
+            <ul>
+                <li><a href="Final Project Ethics Website.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="ethical.html">Ethical Considerations</a></li>
+                <li><a href="security.html">Security Measures</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Data Security in AI Systems</h2>
+            <p>Data security is one of the most critical concerns in AI systems, particularly as these systems often rely on large datasets containing sensitive personal information. Ensuring that this data is stored securely and processed responsibly is crucial to maintaining user trust and complying with legal regulations such as GDPR. AI systems that handle personal data should implement strong encryption, secure authentication methods, and data anonymization techniques to protect against unauthorized access (Howarth, 2024).</p>
+
+            <h2>Privacy Concerns</h2>
+            <p>With the vast amounts of data required to train AI systems, privacy is a significant concern. AI models can inadvertently expose private information, especially when they are trained on personal or proprietary data. For example, in healthcare, AI models trained on patient records must adhere to stringent privacy protections to prevent data breaches. Developers must employ differential privacy techniques, which allow AI systems to make accurate predictions while ensuring that no individual's personal information is revealed (Pattam, 2021).</p>
+
+            <h2>Adversarial Attacks on AI</h2>
+            <p>Adversarial attacks on AI systems involve manipulating input data in ways that cause the AI to make incorrect predictions or classifications. These attacks can severely undermine the reliability and trustworthiness of AI systems, particularly in critical areas like autonomous vehicles and financial fraud detection. Adversarial machine learning is an evolving field focused on identifying vulnerabilities in AI models and developing techniques to defend against such attacks. Best practices include testing models with adversarial examples, implementing robust training procedures, and continually monitoring systems for abnormal behavior (Brown, 2021).</p>
+
+            <h2>AI in Cybersecurity</h2>
+            <p>AI is not only a target for attacks but also a powerful tool for enhancing cybersecurity defenses. AI systems can be used to detect anomalies in network traffic, identify threats in real time, and automate responses to cyberattacks. Machine learning algorithms can analyze large datasets to detect patterns that may indicate the presence of malware, phishing attempts, or other security threats. By integrating AI into cybersecurity strategies, organizations can improve their ability to prevent, detect, and respond to cyberattacks (Howarth, 2024).</p>
+
+            <h2>Best Practices for Securing AI Systems</h2>
+            <p>Ensuring the security of AI systems requires a multi-faceted approach that includes both technical and organizational measures. Key best practices for securing AI systems include:</p>
+            <ul>
+                <li><strong>Data Encryption:</strong> Encrypt sensitive data both at rest and in transit to prevent unauthorized access.</li>
+                <li><strong>Secure Development Lifecycle (SDLC):</strong> Implement security measures at every stage of the AI development lifecycle, from data collection and model training to deployment and maintenance.</li>
+                <li><strong>Regular Security Audits:</strong> Conduct regular security audits and vulnerability assessments to identify and address potential weaknesses in AI systems.</li>
+                <li><strong>Monitoring and Logging:</strong> Continuously monitor AI systems for signs of unusual activity and maintain detailed logs for forensic analysis in the event of a security breach.</li>
+                <li><strong>Adversarial Training:</strong> Use adversarial examples during model training to strengthen AI systems against attacks that attempt to manipulate input data.</li>
+        </section>
+        
+        <!-- Add the Cybersecurity Image below the text -->
+        <img src="cybersecurity.png" alt="Cybersecurity Illustration">
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Jeffery O'Hara</p>
+    </footer>
+</body>
+</html>
